@@ -3,16 +3,16 @@
 
 
 
-echo "What is your name"
+echo "What is your name? - "
 
-read name
+read  name
 
 echo "my name is $name"
 
 
-echo "Enter first Number:" 
+echo "Enter first Number: - " 
 read number1
-echo "Enter Secont Number:" 
+echo "Enter Secont Number: - " 
 read number2
 
 sum=$(( $number1 + $number2 ))
