@@ -1,6 +1,8 @@
 #!/bin/bash
 #For checking status of websites 
 
+
+
 read -p "which website you want to check:" site
 
 ping -c 1 $site
@@ -13,7 +15,6 @@ then
 else
 	echo "unable to connect $site"
 fi
-
 
 
 
