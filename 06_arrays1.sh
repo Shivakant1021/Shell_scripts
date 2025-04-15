@@ -1,13 +1,13 @@
-#!bin/bash
+#!/bin/bash
 
 fruits=("apple" "mangoes" "Banana")
 
-fruits+=("orange")
+read -p "Enter fruit: " fruit
+fruits+=("$fruit")
 
 unset fruits[1]
 
-echo "Update arry: ${fruits[@]}"
-
+echo "Updated array: ${fruits[@]}"
 
 
 
